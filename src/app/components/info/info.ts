@@ -2,10 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-info',
-  imports: [],
+  standalone: true,
   templateUrl: './info.html',
-  styleUrl: './info.css'
+  styleUrls: ['./info.css']
 })
-export class Info {
-
-}
+export class Info {}
